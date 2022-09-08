@@ -1,5 +1,13 @@
 <?php 
 
+function luke_theme_support() {
+  //adds dynamic title support
+  add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'luke_theme_support');
+
+
 function luke_register_styles(){
 
   $version = wp_get_theme()->get( 'Version' );
