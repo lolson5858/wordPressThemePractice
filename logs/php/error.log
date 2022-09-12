@@ -4,3 +4,22 @@
 [07-Sep-2022 16:41:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/DasSpeed/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/DasSpeed/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
 [08-Sep-2022 18:24:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\front-page.php on line 21
 [08-Sep-2022 19:01:34 UTC] PHP Parse error:  syntax error, unexpected ''items_wrap'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\header.php on line 40
+[12-Sep-2022 15:01:12 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 17
+[12-Sep-2022 15:01:55 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 17
+[12-Sep-2022 15:13:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 32
+[12-Sep-2022 15:13:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function comments_form() in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php:45
+Stack trace:
+#0 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\comment-template.php(1556): require()
+#1 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\template-parts\content-article.php(18): comments_template()
+#2 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php(772): require('C:\\Users\\DasSpe...')
+#3 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php(716): load_template('C:\\Users\\DasSpe...', false, Array)
+#4 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\single.php(16): get_template_part in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 45
+[12-Sep-2022 15:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_comments_count() in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php:16
+Stack trace:
+#0 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\comment-template.php(1556): require()
+#1 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\template-parts\content-article.php(18): comments_template()
+#2 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php(772): require('C:\\Users\\DasSpe...')
+#3 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php(716): load_template('C:\\Users\\DasSpe...', false, Array)
+#4 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\single.php(16): get_template in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 16
