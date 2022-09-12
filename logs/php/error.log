@@ -23,3 +23,15 @@ Stack trace:
 #3 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php(716): load_template('C:\\Users\\DasSpe...', false, Array)
 #4 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
 #5 C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\single.php(16): get_template in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\comments.php on line 16
+[12-Sep-2022 16:59:34 UTC] PHP Parse error:  syntax error, unexpected 'lukewidget_areas' (T_STRING) in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\functions.php on line 48
+[12-Sep-2022 16:59:36 UTC] PHP Parse error:  syntax error, unexpected 'lukewidget_areas' (T_STRING) in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\functions.php on line 48
+[12-Sep-2022 17:51:28 UTC] PHP Warning:  Use of undefined constant dynamic_sidebar - assumed 'dynamic_sidebar' (this will throw an Error in a future version of PHP) in C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\header.php on line 70
+[12-Sep-2022 17:51:28 UTC] PHP Stack trace:
+[12-Sep-2022 17:51:28 UTC] PHP   1. {main}() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\index.php:0
+[12-Sep-2022 17:51:28 UTC] PHP   2. require() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\index.php:17
+[12-Sep-2022 17:51:28 UTC] PHP   3. require_once() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-blog-header.php:19
+[12-Sep-2022 17:51:28 UTC] PHP   4. include() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template-loader.php:106
+[12-Sep-2022 17:51:28 UTC] PHP   5. get_header() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-content\themes\practiceTheme\page.php:4
+[12-Sep-2022 17:51:28 UTC] PHP   6. locate_template() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\general-template.php:48
+[12-Sep-2022 17:51:28 UTC] PHP   7. load_template() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php:716
+[12-Sep-2022 17:51:28 UTC] PHP   8. require_once() C:\Users\DasSpeed\Local Sites\wordpressthemepractice\app\public\wp-includes\template.php:770
