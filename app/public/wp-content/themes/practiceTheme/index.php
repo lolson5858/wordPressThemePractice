@@ -1,5 +1,5 @@
 <!--this is going to be very similar to the front-page.php, but I'll add
-functionality to allow it to sort posts by type(articles, pictures, videos, etc)
+functionality to allow it to sort posts by type(articles, pictures, videos, etc) -->
 <?php
       get_header();
     ?>
